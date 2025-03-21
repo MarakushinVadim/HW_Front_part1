@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    height: 76px;
+}
+
+.header_link{
+    font-size: 16px;
+    line-height: 20px;
+    color: #888888;
+}
+
+.header_link:hover{
+    text-decoration: underline;
+}
+
+.title{
+    font-size: 64px;
+    line-height: 70px;
+    font-weight: 600;
+    margin-top: 64px;
+    margin-bottom: 16px;
+}
+
+.p1{
+    line-height: 32px;
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+.catalog_head_link{
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.specal_title{
+    font-size: 48px;
+    line-height: 59px;
+    color: #000000;
+    font-weight: 600;
+    margin-bottom: 32px;
+}
+
+.product_title{
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.product_description{
+    font-size: 14px;
+    line-height: 17px;
+    color: #888888;
+    margin-bottom: 12px;
+}
+
+.price_1{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #050505;
+}
+
+.price_2{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    text-decoration-line: line-through;
+    color: #888888;
+}
+
+.footer_title{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+}
+
+.footer_link_menu{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #888888;
+    text-decoration: none;    
+}
+
+.footer_link_menu:hover{
+    text-decoration: underline;
+}
+
+.footer_link{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #888888;
+    text-decoration: none;
+}
+
+h4{
+    margin-bottom: 12px;
+}
+
+.form_title{
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+    margin-bottom: 16px;
+}
+
+.input_email{
+    background: #FFFFFF;
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    border-radius: 20px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    color: #C4C4C4;
+}
+
+.subscribe_btn{
+    background: rgba(222, 215, 215, 0.41);
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 20px;
+    width: 275px;
+    height: 46px;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+}
