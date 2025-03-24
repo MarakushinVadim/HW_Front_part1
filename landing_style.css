@@ -3,38 +3,92 @@
     padding: 0;
 }
 
+body{
+    font-family: "Montserrat", sans-serif;
+}
+
+.top{
+    height: 782px;
+    background-image: url(imglanding/Bg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
 header{
     height: 100px;
 }
 
 .header_link{
-    font-weight: bold;
+    height: 17px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;  
+    text-decoration: none;  
+
+    color: rgb(255, 255, 255);
+    font-family: Lato;
     font-size: 14px;
+    font-weight: 400;
     line-height: 17px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: uppercase;
 }
 
+
 .title{
-    font-weight: bold;
+    font-weight: 700;
     font-size: 72px;
     line-height: 86px;
+    margin-top: 140px;
     margin-bottom: 39px;
+    color: rgb(255, 255, 255);
+    font-family: Lato;
+    letter-spacing: 5%;
+    text-align: center;
+    text-transform: uppercase;
 }
 
 .p1{
+    font-family: Lato;
     font-weight: 600;
     font-size: 24px;
     line-height: 150%;
+    letter-spacing: 0%;
+    text-align: center;
     margin-bottom: 39px;
+    color: #FFFFFF;
 }
 
 .sign_up_btn{
     border-radius: 6px;
+    background: #FFFFFF;
     width: 160px;
     height: 50px;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 17px;
     color: #ED4C5C;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.lorem{
+    background: #FFFFFF;
+}
+
+.lorem_title{
+    color: #000000;
+    font-family: Lato;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 43px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 125px;
 }
 
 h2{
@@ -52,20 +106,63 @@ h3{
     margin-bottom: 24px;
 }
 
+.features{
+    background: #FAFAFA;
+}
+
 .p20{
+    color: #000000;
+    font-family: Lato;
     font-size: 14px;
+    font-weight: 400;
     line-height: 140%;
+    letter-spacing: 0%;
+    text-align: justify;
     margin-bottom: 14px;
 }
 
+
+
 .learn_link{
+    color: rgb(237, 76, 92);
+    font-family: Lato;
     font-size: 14px;
+    font-weight: 400;
     line-height: 140%;
-    color: #ED4C5C;
+    letter-spacing: 0%;
+    text-align: justify;
 }
 
 .features_title{
+    color: rgb(0, 0, 0);
+    font-family: Lato;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 43px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 63px;    
     margin-bottom: 63px;
+}
+
+.features_card_title{
+    color: rgb(16, 16, 16);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: center;    
+}
+
+.features_card_link{
+    color: rgb(237, 76, 92);
+    font-family: Lato;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: center;    
 }
 
 h4{
@@ -74,17 +171,174 @@ h4{
 }
 
 .p7{
+    color: rgb(16, 16, 16);
+    font-family: Lato;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: center;    
     margin-bottom: 5px;
 }
 
+.stay{
+    background: #ED4C5C;
+}
+
 .stay_title{
+    color: rgb(255, 255, 255);
+    font-family: Lato;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 43px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 143px;    
     margin-bottom: 45px;
 }
 
+.stay_p{
+    color: rgb(255, 255, 255);
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 0%;
+    text-align: justify;    
+}
+
 .contacts_title{
+    color: rgb(0, 0, 0);
+    font-family: Lato;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 43px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 117;    
     margin-bottom: 53px;
+}
+
+.contacts_p{
+    color: rgb(0, 0, 0);
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 0%;
+    text-align: justify;    
+}
+
+.contacts{
+    background: #FFFFFF;
 }
 
 footer{
     height: 110px;
+}
+
+.form_input_f_name{
+    width: 255px;
+    height: 60px;
+    box-sizing: border-box;
+    border: 1px solid #333333b5;
+    border-radius: 6px;
+    outline: none;    
+    
+    color: rgba(19, 39, 67, 0.5);
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding-left: 31px; 
+    padding-right: 31px;   
+}
+
+.form_input_l_name{
+    width: 255px;
+    height: 60px;
+    box-sizing: border-box;
+    border: 1px solid rgb(51, 51, 51);
+    border-radius: 6px;
+    outline: none; 
+    
+    color: rgba(19, 39, 67, 0.5);
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;  
+    padding-left: 31px; 
+    padding-right: 31px;      
+}
+
+.form_input_p_num{
+    width: 540px;
+    height: 60px;
+    box-sizing: border-box;
+    border: 1px solid rgb(51, 51, 51);
+    border-radius: 6px;   
+    outline: none;   
+
+    color: rgba(19, 39, 67, 0.5);
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding-left: 31px; 
+    padding-right: 31px;        
+}    
+
+.form_input_select_form{
+    width: 540px;
+    height: 60px;
+    box-sizing: border-box;
+    border: 1px solid rgb(51, 51, 51);
+    border-radius: 6px; 
+    outline: none;  
+
+    color: rgba(19, 39, 67, 0.5);
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding-left: 31px; 
+    padding-right: 31px;        
+}
+
+.btn_sub{
+    width: 160px;
+    height: 50px;
+    box-sizing: border-box;
+    border: 1.5px solid rgb(237, 76, 92);
+    border-radius: 6px;
+    
+    background: rgb(237, 76, 92);
+    color: rgb(255, 255, 255);
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;        
+}
+
+.copyright{
+    color: rgb(16, 16, 16);
+    font-family: Lato;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 48px;
+    margin-bottom: 48px;    
 }
