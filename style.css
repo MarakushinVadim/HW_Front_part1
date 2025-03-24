@@ -3,18 +3,59 @@
     padding: 0;
 }
 
+body{
+    font-family: "Montserrat", sans-serif;
+}
+
+.top{
+    background-image: url(img/header.jpeg);
+    height: 748px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
 header{
     height: 76px;
+}
+
+.header_input{
+    width: 288px;
+    height: 41px;
+    border: 1px solid rgb(255, 255, 255); 
+    border-radius: 20px;
+    background: rgb(255, 255, 255);
+    background-color: transparent;
+    outline: none;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+    color: #FFFFFF;
+    padding-left: 32px;
+    padding-right: 32px;
+    box-sizing: border-box;
+}
+
+.header_input::placeholder{
+    color: #FFFFFF;
 }
 
 .header_link{
     font-size: 16px;
     line-height: 20px;
-    color: #888888;
+    color: #FFFFFF;
+    text-decoration: none;
 }
 
 .header_link:hover{
     text-decoration: underline;
+}
+
+.titler{
+    color: #FFFFFF;
 }
 
 .title{
@@ -33,7 +74,12 @@ header{
 
 .catalog_head_link{
     font-size: 16px;
+    font-weight: 400;
     line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+    color: #FFFFFF;
 }
 
 .specal_title{
@@ -42,6 +88,14 @@ header{
     color: #000000;
     font-weight: 600;
     margin-bottom: 32px;
+}
+
+.catalog_products{
+    font-size: 48px;
+    line-height: 59px;
+    color: #000000;
+    font-weight: 600;
+    margin-bottom: 32px;    
 }
 
 .product_title{
@@ -72,6 +126,16 @@ header{
     line-height: 29px;
     text-decoration-line: line-through;
     color: #888888;
+}
+
+.catalog_box_link{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+    color: rgb(0, 0, 0);
 }
 
 .footer_title{
@@ -113,25 +177,40 @@ h4{
 }
 
 .input_email{
+    width: 260px;
+    height: 40px;
     background: #FFFFFF;
     border: 1px solid #C4C4C4;
     box-sizing: border-box;
-    border-radius: 20px;
-    font-style: normal;
-    font-weight: normal;
+    padding-left: 17px;
+    padding-right: 17px;
+    outline: none;
+    border-radius: 16px;
     font-size: 15px;
     line-height: 18px;
     color: #C4C4C4;
 }
 
+.input_email::placeholder{
+    color: rgb(196, 196, 196);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
 .subscribe_btn{
+    width: 260px;
+    height: 40px;
     background: rgba(222, 215, 215, 0.41);
     border: 1px solid #FFFFFF;
     box-sizing: border-box;
-    border-radius: 20px;
-    width: 275px;
-    height: 46px;
-    font-size: 15px;
-    line-height: 18px;
+    border-radius: 16px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0%;
+    text-align: center;
     color: #000000;
 }
