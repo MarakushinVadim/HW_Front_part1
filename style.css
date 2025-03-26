@@ -103,6 +103,7 @@ nav {
     color: #000000;
     font-weight: 600;
     margin-bottom: 32px;
+    margin-top: 64px;
 }
 
 .product_section {
@@ -112,12 +113,17 @@ nav {
     flex-wrap: wrap;
 }
 
+.product {
+    width: 378px;
+}
+
 .catalog_products{
     font-size: 48px;
     line-height: 59px;
     color: #000000;
     font-weight: 600;
-    margin-bottom: 32px;    
+    margin-bottom: 32px;
+    margin-top: 72px;    
 }
 
 .product_title{
@@ -135,11 +141,18 @@ nav {
     margin-bottom: 12px;
 }
 
+.price_box {
+    display: flex;
+    justify-content: flex-start;
+    gap: 32px;
+}
+
 .price_1{
     font-weight: 500;
     font-size: 24px;
     line-height: 29px;
     color: #050505;
+    
 }
 
 .price_2{
@@ -158,6 +171,15 @@ nav {
     text-align: left;
     text-decoration-line: underline;
     color: rgb(0, 0, 0);
+}
+
+footer {
+    height: 207px;
+    margin-top: 64px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    background: #F7F6F6;
 }
 
 .footer_title{
@@ -191,11 +213,18 @@ h4{
     margin-bottom: 12px;
 }
 
+.footer_form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .form_title{
-    font-size: 14px;
-    line-height: 16px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
     color: #000000;
-    margin-bottom: 16px;
+    margin-bottom: 8px;
 }
 
 .input_email{
