@@ -7,6 +7,11 @@ body{
     font-family: "Montserrat", sans-serif;
 }
 
+.center {
+    padding-left: calc(50% - 555px);
+    padding-right: calc(50% - 555px);
+}
+
 .top{
     height: 782px;
     background-image: url(imglanding/Bg.jpeg);
@@ -17,25 +22,42 @@ body{
 
 header{
     height: 100px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 .header_link{
     height: 17px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;  
     text-decoration: none;  
-
     color: rgb(255, 255, 255);
     font-family: Lato;
     font-size: 14px;
     font-weight: 400;
     line-height: 17px;
     letter-spacing: 0%;
-    text-align: left;
     text-transform: uppercase;
 }
 
+nav {
+    margin-left: 172px;
+    margin-right: 172px;
+    display: flex;
+    gap: 32px;
+}
+
+.header_block {
+    height: 124px;
+    width: 540px;
+    margin-bottom: 39px;
+}
+
+.title_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
 
 .title{
     font-weight: 700;
@@ -57,7 +79,6 @@ header{
     line-height: 150%;
     letter-spacing: 0%;
     text-align: center;
-    margin-bottom: 39px;
     color: #FFFFFF;
 }
 
@@ -78,6 +99,10 @@ header{
 
 .lorem{
     background: #FFFFFF;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 95px;
 }
 
 .lorem_title{
@@ -87,8 +112,14 @@ header{
     font-weight: 600;
     line-height: 43px;
     letter-spacing: 0%;
-    text-align: left;
-    margin-top: 125px;
+}
+
+.lorem_text {
+    width: 445px;
+}
+
+.lorem_video {
+    padding-bottom: 94px;
 }
 
 h2{
@@ -108,6 +139,22 @@ h3{
 
 .features{
     background: #FAFAFA;
+}
+
+.card_box {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+}
+
+.card {
+    background: #FFFFFF;
+    width: 350px;
+    margin-bottom: 31px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .p20{
@@ -141,8 +188,8 @@ h3{
     line-height: 43px;
     letter-spacing: 0%;
     text-align: center;
-    margin-top: 63px;    
-    margin-bottom: 63px;
+    padding-top: 63px;
+    padding-bottom: 63px;
 }
 
 .features_card_title{
@@ -152,7 +199,8 @@ h3{
     font-weight: 700;
     line-height: 22px;
     letter-spacing: 0%;
-    text-align: center;    
+    text-align: center;
+    padding-top: 33px;    
 }
 
 .features_card_link{
@@ -162,7 +210,8 @@ h3{
     font-weight: 700;
     line-height: 150%;
     letter-spacing: 0%;
-    text-align: center;    
+    text-align: center; 
+    padding-bottom: 25px;   
 }
 
 h4{
@@ -183,6 +232,15 @@ h4{
 
 .stay{
     background: #ED4C5C;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.stay_text_block {
+    width: 445px;
+    margin-top: 143px;
+    margin-bottom: 143px;
 }
 
 .stay_title{
@@ -192,9 +250,7 @@ h4{
     font-weight: 600;
     line-height: 43px;
     letter-spacing: 0%;
-    text-align: left;
-    margin-top: 143px;    
-    margin-bottom: 45px;
+    text-align: left; 
 }
 
 .stay_p{
@@ -214,8 +270,7 @@ h4{
     font-weight: 600;
     line-height: 43px;
     letter-spacing: 0%;
-    text-align: left;
-    margin-top: 117;    
+    text-align: left;  
     margin-bottom: 53px;
 }
 
@@ -231,10 +286,32 @@ h4{
 
 .contacts{
     background: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact_box {
+    width: 434px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    padding-top: 117px;
+    padding-bottom: 78px;
+    gap: 25px;
+}
+
+.name {
+    display: flex;
+    gap: 30px;
 }
 
 footer{
-    height: 110px;
+    background: #FAFAFA;
+    padding-top: 48px;
+    padding-bottom: 48px;
 }
 
 .form_input_f_name{
@@ -338,7 +415,4 @@ footer{
     font-weight: 400;
     line-height: 14px;
     letter-spacing: 0%;
-    text-align: left;
-    margin-top: 48px;
-    margin-bottom: 48px;    
 }

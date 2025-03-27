@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="landing_style.css">
 </head>
 <body>
-    <div class="top">
+    <div class="top center">
         <header>
             <img src="imglanding/logo_landing.svg" alt="logo_landing">
             <nav>
@@ -19,57 +19,81 @@
                 <a href="" class="header_link">CONTACT</a>
             </nav>
         </header>
-        <section>
+        <section class="title_section">
             <h1 class="title">Coworking</h1>
-            <p class="p1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius voluptatibus aperiam maiores id, incidunt repellendus mollitia </p>
+            <div class="header_block">
+                <p class="p1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius voluptatibus aperiam maiores id, incidunt repellendus mollitia </p>
+            </div>
             <button class="sign_up_btn">Sign Up</button>
         </section>
     </div>
     
 
-    <div class="lorem">
-        <h3 class="lorem_title">Lorem ipsum dolor sit amet, consectetur </h3>
-        <p class="p20">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo maiores accusamus dolorum maxime, quasi quis ab cum voluptatibus quo eveniet qui reprehenderit nesciunt dolor sed porro molestias. A officia et laboriosam, tenetur adipisci ex fugit consequatur quo ab corrupti vel </p>
-        <a href="#" class="learn_link">Learn More</a>
-        <img class="lorem_img" src="imglanding/photo1landign.jpg" alt="photo1landign">
+    <div class="lorem center">
+        <div class="lorem_text">
+            <h3 class="lorem_title">Lorem ipsum dolor sit amet, consectetur </h3>
+            <p class="p20">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo maiores accusamus dolorum maxime, quasi quis ab cum voluptatibus quo eveniet qui reprehenderit nesciunt dolor sed porro molestias. A officia et laboriosam, tenetur adipisci ex fugit consequatur quo ab corrupti vel </p>
+            <a href="#" class="learn_link">Learn More</a>
+        </div>
+        <div class="lorem_video">
+            <img class="lorem_img" src="imglanding/photo1landign.jpg" alt="photo1landign">
+        </div> 
     </div>
-    <div class="features">
+    
+    <div class="features center">
         <h2 class="features_title">Features</h2>
-        <img src="imglanding/features1.jpg" alt="features1">
-        <h4 class="features_card_title">Supports All Currencies and Cards</h4>
-        <p class="p7">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
-        <a href="#" class="features_card_link">Read More</a>
-        <img src="imglanding/manage.jpeg" alt="manage">
-        <h4 class="features_card_title">Manage your expenses </h4>
-        <p class="p7">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
-        <a href="#" class="features_card_link">Read More</a>
-        <img src="imglanding/perfect.jpeg" alt="perfect">
-        <h4 class="features_card_title">Perfect Software</h4>
-        <p class="p7">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
-        <a href="#" class="features_card_link">Read More</a>
+        <div class="card_box">
+            <div class="card">
+                <img src="imglanding/features1.jpg" alt="features1">
+                <h4 class="features_card_title">Supports All Currencies and Cards</h4>
+                <p class="p7">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                <a href="#" class="features_card_link">Read More</a>
+            </div>
+            <div class="card">
+                <img src="imglanding/manage.jpeg" alt="manage">
+                <h4 class="features_card_title">Manage your expenses </h4>
+                <p class="p7">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                <a href="#" class="features_card_link">Read More</a>
+            </div>
+            <div class="card">
+                <img src="imglanding/perfect.jpeg" alt="perfect">
+                <h4 class="features_card_title">Perfect Software</h4>
+                <p class="p7">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                <a href="#" class="features_card_link">Read More</a>
+            </div>
+        </div>
     </div>
 
-    <div class="stay">
-        <h2 class="stay_title">Stay focused on saving money</h2>
-        <p class="stay_p">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum voluptas dolorem harum laudantium alias aliquid deserunt, quod voluptates. Enim, quae.</p>
+    <div class="stay center">
+        <div class="stay_text_block">
+            <h2 class="stay_title">Stay focused on saving money</h2>
+            <p class="stay_p">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum voluptas dolorem harum laudantium alias aliquid deserunt, quod voluptates. Enim, quae.</p>
+        </div>
         <img src="imglanding/stay.jpg" alt="stay">
     </div>
-    <div class="contacts">
-        <h2 class="contacts_title">Contacts</h2>
-        <p class="contacts_p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, molestiae.</p>
+
+    <div class="contacts center">
+        <div class="contact_box">
+            <h2 class="contacts_title">Contact</h2>
+            <p class="contacts_p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, molestiae.</p>
+        </div>
+        <form action="#" class="form">
+            <div class="name">
+                <input placeholder="First Name" class="form_input_f_name" type="text">
+                <input placeholder="Last Name" class="form_input_l_name" type="text">
+            </div>
+            
+            <input placeholder="Phone Number" class="form_input_p_num" type="number">
+            <select class="form_input_select_form" name="" id="">
+                <option value="Select Coworking">Select Coworking</option>
+            </select>
+            <button class="btn_sub">Submit Now</button>
+        </form>
     </div>
         
-    <form action="#">
-        <input placeholder="First Name" class="form_input_f_name" type="text">
-        <input placeholder="Last Name" class="form_input_l_name" type="text">
-        <input placeholder="Phone Number" class="form_input_p_num" type="number">
-        <select class="form_input_select_form" name="" id="">
-            <option value="Select Coworking">Select Coworking</option>
-        </select>
-        <button class="btn_sub">Submit Now</button>
-    </form>
-    <footer>
-        <p>Copyright 2022 CoWo</p>
+    
+    <footer class="center">
+        <p class="copyright">Copyright 2022 CoWo</p>
     </footer>
 </body>
 </html>
