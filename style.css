@@ -216,6 +216,13 @@ footer {
     text-decoration: none;
 }
 
+.footer_info {
+    display: flex;
+    padding-left: 12px;
+    padding-right: 13px;
+    column-gap: 73px;
+}
+
 .footer_contacts {
     display: flex;
     flex-direction: column;
