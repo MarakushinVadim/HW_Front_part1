@@ -176,6 +176,7 @@ nav {
 footer {
     height: 207px;
     margin-top: 64px;
+    padding-top: 32px;
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
@@ -187,6 +188,12 @@ footer {
     font-size: 24px;
     line-height: 29px;
     color: #000000;
+}
+
+.footer_menu {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
 }
 
 .footer_link_menu{
@@ -209,14 +216,17 @@ footer {
     text-decoration: none;
 }
 
-h4{
-    margin-bottom: 12px;
+.footer_contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
 }
 
 .footer_form {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 8px;
 }
 
 .form_title{
