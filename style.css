@@ -97,6 +97,52 @@ nav {
     color: #FFFFFF;
 }
 
+
+.for_content {
+    display: grid;
+    gap: 32px;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.for_card {
+    height: 415px;
+    grid-column: span 4;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #FFFFFF;
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 41px;
+    letter-spacing: 0%;
+}
+
+.for_card_big {
+    grid-column: span 6;
+}
+
+.for_card_1 {
+    background-image: url(img/for_1.jpeg);
+}
+
+.for_card_2 {
+    background-image: url(img/for_2.jpeg);
+}
+
+.for_card_3 {
+    background-image: url(img/for_3.jpeg);
+}
+
+.for_card_4 {
+    background-image: url(img/for_4.jpeg);
+}
+
+.for_card_5 {
+    background-image: url(img/for_5.jpeg);
+}
+
 .specal_title{
     font-size: 48px;
     line-height: 59px;
