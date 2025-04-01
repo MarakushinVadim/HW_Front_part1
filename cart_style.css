@@ -72,4 +72,107 @@ body {
   line-height: 70px;
   letter-spacing: 0%;
   padding-top: 127.25px;
+}
+
+.cart {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 32px;
+  padding-top: 64px;
+}
+.cart__left {
+  grid-column: span 8;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.cart__left__names {
+  display: flex;
+  justify-content: space-between;
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.cart__left__border {
+  border: 0.5px solid rgb(202, 205, 216);
+}
+.cart__left__card {
+  padding-top: 25px;
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+  justify-content: space-between;
+}
+.cart__left__card__info {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+.cart__left__card__info__left {
+  grid-column: span 3;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.cart__left__card__info__left__title {
+  color: rgb(0, 0, 0);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.cart__left__card__info__left__description {
+  color: rgb(136, 136, 136);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.cart__left__card__info__left__price {
+  color: rgb(5, 5, 5);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.cart__left__card__info__left__links {
+  display: flex;
+  gap: 30px;
+}
+.cart__left__card__info__left__links__link {
+  color: rgb(0, 0, 0);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 210%;
+  letter-spacing: 0px;
+  text-align: center;
+  text-decoration-line: underline;
+}
+.cart__left__card__info__right {
+  grid-column: span 1;
+  grid-column-start: 6;
+}
+.cart__left__card__info__right__input {
+  height: 51px;
+  width: 71px;
+  border-radius: 6px;
+  background: rgb(247, 246, 246);
+}
+.cart__left__buttons__btn {
+  height: 37px;
+  width: 200px;
+  box-sizing: border-box;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 50px;
+}
+.cart__right {
+  height: 556px;
+  border-radius: 20px;
+  background: rgb(247, 246, 246);
+  grid-column: span 4;
 }/*# sourceMappingURL=cart_style.css.map */
