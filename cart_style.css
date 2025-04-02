@@ -163,6 +163,12 @@ body {
   width: 71px;
   border-radius: 6px;
   background: rgb(247, 246, 246);
+  outline: none;
+  border: none;
+  text-align: center;
+  padding-left: 16px;
+  padding-right: 16px;
+  box-sizing: border-box;
 }
 .cart__left__buttons__btn {
   height: 37px;
