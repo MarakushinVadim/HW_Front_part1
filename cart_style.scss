@@ -267,3 +267,199 @@ body {
         }
     }
 }
+
+.special {
+    &__title {
+        font-size: 48px;
+        line-height: 59px;
+        color: #000000;
+        font-weight: 600;
+        margin-bottom: 32px;
+        margin-top: 64px;        
+    }
+
+    &__products {
+        display: flex;
+        column-gap: 32px;
+        row-gap: 56px;
+        flex-wrap: wrap; 
+        
+        margin-bottom: 33px;
+        
+        &__product {
+            width: 378px;
+
+            &__title {
+                font-size: 24px;
+                line-height: 29px;
+                color: #000000;
+                font-weight: 500;
+                margin-bottom: 8px;
+            }
+            
+            &__description {
+                font-size: 14px;
+                line-height: 17px;
+                color: #888888;
+                margin-bottom: 12px;
+            }
+
+            &__prices {
+                display: flex;
+                justify-content: flex-start;
+                gap: 32px;
+
+                &__price_1 {
+                    font-weight: 500;
+                    font-size: 24px;
+                    line-height: 29px;
+                    color: #050505;
+                }
+
+                &__price_2 {
+                    font-weight: 500;
+                    font-size: 24px;
+                    line-height: 29px;
+                    text-decoration-line: line-through;
+                    color: #888888;
+                }
+            }
+        }
+    }
+
+    &__cat__link {
+        color: rgb(0, 0, 0);
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0%;
+        text-align: left;
+        text-decoration-line: underline;        
+    }
+}
+
+.footer {
+    height: 207px;
+    margin-top: 64px;
+    padding-top: 32px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    background: #F7F6F6;
+
+    &__info {
+        display: flex;
+        padding-left: 12px;
+        padding-right: 13px;
+        column-gap: 73px;
+
+        &__menu {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+
+            &__title {
+                font-weight: 500;
+                font-size: 24px;
+                line-height: 29px;
+                color: #000000;
+            }
+
+            &__link {
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 17px;
+                color: #888888;
+                text-decoration: none;
+
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+
+        &__contacts {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+
+            &__title {
+                font-weight: 500;
+                font-size: 24px;
+                line-height: 29px;
+                color: #000000;
+            }
+
+            &__link {
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 17px;
+                color: #888888;
+                text-decoration: none;
+            }
+
+            &__logo_links {
+                display: flex;
+                align-items: center;
+                flex-direction: row;
+                gap: 20px;
+            }
+        }
+    }
+
+    &__right {
+        &__form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 8px;
+
+            &__title {
+                font-size: 12px;
+                font-weight: 400;
+                line-height: 15px;
+                color: #000000;
+                margin-bottom: 8px;
+            }
+
+            &__input_email {
+                width: 260px;
+                height: 40px;
+                background: #FFFFFF;
+                border: 1px solid #C4C4C4;
+                box-sizing: border-box;
+                padding-left: 17px;
+                padding-right: 17px;
+                outline: none;
+                border-radius: 16px;
+                font-size: 15px;
+                line-height: 18px;
+                color: #C4C4C4;
+
+                &::placeholder {
+                    color: rgb(196, 196, 196);
+                    font-size: 12px;
+                    font-weight: 400;
+                    line-height: 15px;
+                    letter-spacing: 0%;
+                    text-align: left;
+                }
+            }
+
+            &__subscribe_btn {
+                width: 260px;
+                height: 40px;
+                background: rgba(222, 215, 215, 0.41);
+                border: 1px solid #FFFFFF;
+                box-sizing: border-box;
+                border-radius: 16px;
+                font-size: 12px;
+                font-weight: 400;
+                line-height: 15px;
+                letter-spacing: 0%;
+                text-align: center;
+                color: #000000;
+            }
+        }
+    }
+}
