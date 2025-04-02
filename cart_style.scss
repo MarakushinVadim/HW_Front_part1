@@ -200,7 +200,24 @@ body {
 
                 box-sizing: border-box;
                 border: 1px solid rgb(0, 0, 0);
-                border-radius: 50px;                
+                border-radius: 50px;
+
+                color: rgb(2, 2, 2);
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 17px;
+                letter-spacing: 0px;
+
+                &:hover {
+                    border-radius: 50px;
+                    background: rgb(0, 0, 0);    
+                    
+                    color: rgb(255, 255, 255);
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 17px;
+                    letter-spacing: 0px;                  
+                }
             }
         }
     }
