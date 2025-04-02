@@ -256,6 +256,17 @@ body {
   border: 1px solid rgb(4, 4, 4);
   border-radius: 20px;
 }
+.cart__right__form__btn:hover {
+  box-sizing: border-box;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 20px;
+  background: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0%;
+}
 
 .special__title {
   font-size: 48px;
