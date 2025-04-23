@@ -69,12 +69,14 @@ body {
     }
 
     &__titler {
-        color: #FFFFFF;
-        font-size: 64px;
-        font-weight: 600;
-        line-height: 70px;
-        letter-spacing: 0%;
-        padding-top: 127.25px;
+        &__title{
+            color: #FFFFFF;
+            font-size: 64px;
+            font-weight: 600;
+            line-height: 70px;
+            letter-spacing: 0%;
+            padding-top: 127.25px; 
+        }
     }
 }
 
@@ -517,3 +519,5 @@ body {
         }
     }
 }
+
+@import 'cart_style_tablet';
