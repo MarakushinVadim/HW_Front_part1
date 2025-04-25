@@ -29,6 +29,10 @@ header{
     flex-wrap: wrap;
 }
 
+.logo_mobile {
+    display: none;
+}
+
 .header_input{
     width: 288px;
     height: 41px;
@@ -53,9 +57,13 @@ header{
     color: #FFFFFF;
 }
 
-nav {
+.top_menu {
     display: flex;
     gap: 32px;
+}
+
+.top_menu_mobile {
+    display: none;
 }
 
 .header_link{
@@ -117,6 +125,9 @@ nav {
     font-weight: 600;
     line-height: 41px;
     letter-spacing: 0%;
+
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .for_card_big {
@@ -220,12 +231,12 @@ nav {
 }
 
 footer {
-    height: 207px;
     margin-top: 64px;
     padding-top: 32px;
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
+    flex-wrap: wrap;
     background: #F7F6F6;
 }
 
@@ -351,3 +362,4 @@ footer {
 }
 
 @import 'style_tablet';
+@import 'style_mobile';

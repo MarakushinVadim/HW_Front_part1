@@ -29,6 +29,10 @@ header {
   flex-wrap: wrap;
 }
 
+.logo_mobile {
+  display: none;
+}
+
 .header_input {
   width: 288px;
   height: 41px;
@@ -57,9 +61,13 @@ header {
   color: #FFFFFF;
 }
 
-nav {
+.top_menu {
   display: flex;
   gap: 32px;
+}
+
+.top_menu_mobile {
+  display: none;
 }
 
 .header_link {
@@ -118,6 +126,8 @@ nav {
   font-weight: 600;
   line-height: 41px;
   letter-spacing: 0%;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .for_card_big {
@@ -221,12 +231,12 @@ nav {
 }
 
 footer {
-  height: 207px;
   margin-top: 64px;
   padding-top: 32px;
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
+  flex-wrap: wrap;
   background: #F7F6F6;
 }
 
@@ -388,5 +398,102 @@ footer {
   }
   .product__image {
     width: 100%;
+  }
+}
+@media (max-width: 767px) {
+  .center {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .top {
+    padding-top: 32px;
+  }
+  header {
+    justify-content: space-between;
+    border-bottom: none;
+  }
+  .logo {
+    display: none;
+  }
+  .logo_mobile {
+    display: block;
+  }
+  .header_input {
+    display: none;
+  }
+  .top_menu {
+    display: none;
+  }
+  .top_menu_mobile {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+  }
+  .title {
+    margin-top: 29px;
+    margin-bottom: 17px;
+    text-align: center;
+    font-size: 48px;
+    line-height: 59px;
+  }
+  .p1 {
+    text-align: center;
+    font-size: 16px;
+    line-height: 32px;
+  }
+  .catalog_head_link {
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .specal_title {
+    font-size: 24px;
+    line-height: 29px;
+    margin-top: 32px;
+  }
+  .for_content {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+  }
+  .for_card {
+    height: 375px;
+    grid-column: span 4;
+    font-size: 28px;
+    line-height: 38px;
+  }
+  .for_card_big {
+    height: 244px;
+    grid-column: span 4;
+  }
+  .product_title {
+    line-height: 22px;
+    font-size: 18px;
+  }
+  .price_1 {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .price_2 {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .catalog_products {
+    font-size: 24px;
+    line-height: 29px;
+  }
+  .link_box {
+    padding-top: 36px;
+  }
+  .footer_info {
+    -moz-column-gap: 100px;
+         column-gap: 100px;
+  }
+  .form_zone {
+    margin-top: 70px;
+    padding-bottom: 33px;
+  }
+  footer {
+    display: block;
   }
 }/*# sourceMappingURL=style.css.map */
