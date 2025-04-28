@@ -355,6 +355,7 @@ footer {
   letter-spacing: 0%;
   text-align: center;
   color: #000000;
+  transition: background 0.3s;
 }
 .subscribe_btn:hover {
   box-sizing: border-box;
