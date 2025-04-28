@@ -1,4 +1,4 @@
-@media (max-width: 767px) {
+@media(max-width: 767px) {
     .center {
         padding-left: 16px;
         padding-right: 16px;
@@ -7,7 +7,6 @@
     .top {
         padding-top: 32px;
     }
-
     header {
         justify-content: space-between;
         border-bottom: none;
@@ -44,70 +43,35 @@
         line-height: 59px;
     }
 
-    .p1 {
-        text-align: center;
-        font-size: 16px;
-        line-height: 32px;
-    }
+    .product_box_links {
+        padding-top: 32px;
+        padding-bottom: 32px;
 
-    .catalog_head_link {
         display: flex;
-        justify-content: center;
-        font-size: 14px;
-        line-height: 24px;
+        flex-direction: column;
     }
 
-    .specal_title {
-        font-size: 24px;
-        line-height: 29px;
-        margin-top: 32px;
+    .filter_select {
+        display: flex;
+        flex-direction: column-reverse;
+
+        padding-top: 14px;
+        gap: 10px;
     }
 
-    .for_content {
-        grid-template-columns: repeat(4, 1fr);
-        gap: 16px;
-    }
-
-    .for_card {
-        height: 375px;
-        grid-column: span 4; 
-        font-size: 28px;
-        line-height: 38px;
-    }
-
-    .for_card_big {
-        height: 244px;
-        grid-column: span 4;
+    .product {
+        width: 343px;
     }
 
     .product_title {
-        line-height: 22px;
         font-size: 18px;
+        line-height: 22px;
     }
 
     .price_1 {
         font-size: 18px;
         line-height: 22px;
     }
-
-
-    .price_2 {
-        font-size: 18px;
-        line-height: 22px;
-    }
-
-    .catalog_products {
-        font-size: 24px;
-        line-height: 29px;
-    }
-
-    .link_box {
-        padding-top: 36px;
-    }
-
-
-
-
 
     .footer_info {
         column-gap: 100px;
@@ -121,5 +85,4 @@
         height: 365px;
         display: block;
     }
-
 }
