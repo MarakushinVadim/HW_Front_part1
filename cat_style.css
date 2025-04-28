@@ -20,14 +20,6 @@ body {
   height: 400px;
 }
 
-.top_menu_mobile {
-  display: none;
-}
-
-.logo_mobile {
-  display: none;
-}
-
 header {
   height: 76px;
   border-bottom: 0.5px solid rgba(255, 255, 255, 0.8);
@@ -215,7 +207,6 @@ footer {
   line-height: 17px;
   color: #888888;
   text-decoration: none;
-  transition: all .3s;
 }
 
 .footer_link_menu:hover {
@@ -249,6 +240,10 @@ footer {
   align-items: center;
   flex-direction: row;
   gap: 20px;
+}
+
+.footer__icon :hover {
+  fill: black;
 }
 
 .footer_form {
@@ -312,8 +307,6 @@ footer {
   letter-spacing: 0%;
   text-align: center;
   color: #000000;
-  transition: background .3s;
-
 }
 .subscribe_btn:hover {
   box-sizing: border-box;

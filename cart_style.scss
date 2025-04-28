@@ -490,6 +490,12 @@ body {
         }
     }
 
+    &__icon {
+        :hover {
+            fill: black;
+        }
+    }
+
     &__right {
         &__form {
             display: flex;

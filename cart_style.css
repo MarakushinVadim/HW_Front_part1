@@ -408,6 +408,9 @@ body {
   flex-direction: row;
   gap: 20px;
 }
+.footer__icon :hover {
+  fill: black;
+}
 .footer__right__form {
   display: flex;
   flex-direction: column;

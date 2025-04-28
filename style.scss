@@ -293,6 +293,14 @@ footer {
     gap: 20px;
 }
 
+.footer{
+    &__icon {
+        :hover {
+            fill: black;
+        }
+    }
+}
+
 .footer_form {
     display: flex;
     flex-direction: column;
