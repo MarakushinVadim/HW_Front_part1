@@ -171,6 +171,10 @@ body {
                         letter-spacing: 0%;
                         text-align: left;
                         text-decoration: none;
+
+                        &:hover {
+                            text-decoration: underline;
+                        }
                     }
 
                     &__description {
@@ -247,7 +251,7 @@ body {
                 font-weight: 400;
                 line-height: 17px;
                 letter-spacing: 0px;
-                transition: background .3s;
+                transition: all .3s;
 
                 &:hover {
                     border-radius: 50px;
@@ -479,6 +483,10 @@ body {
                 line-height: 17px;
                 color: #888888;
                 text-decoration: none;
+
+                &:hover {
+                    text-decoration: underline;
+                }
             }
 
             &__logo_links {
@@ -490,11 +498,6 @@ body {
         }
     }
 
-    &__icon {
-        :hover {
-            fill: black;
-        }
-    }
 
     &__right {
         &__form {
@@ -568,10 +571,13 @@ body {
     }
 }
 
+.footer__icon path {
+    transition: all .3s;
+}
 
-
-
-  
+.footer__icon:hover path {
+    fill: black;
+}
 
 @import 'cart_style_tablet';
 @import 'cart_style_mobile';

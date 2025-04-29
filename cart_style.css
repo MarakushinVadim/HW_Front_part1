@@ -141,6 +141,9 @@ body {
   text-align: left;
   text-decoration: none;
 }
+.cart__left__card__info__left__title:hover {
+  text-decoration: underline;
+}
 .cart__left__card__info__left__description {
   color: rgb(136, 136, 136);
   font-size: 14px;
@@ -197,7 +200,7 @@ body {
   font-weight: 400;
   line-height: 17px;
   letter-spacing: 0px;
-  transition: background 0.3s;
+  transition: all 0.3s;
 }
 .cart__left__buttons__btn:hover {
   border-radius: 50px;
@@ -402,14 +405,14 @@ body {
   color: #888888;
   text-decoration: none;
 }
+.footer__info__contacts__link:hover {
+  text-decoration: underline;
+}
 .footer__info__contacts__logo_links {
   display: flex;
   align-items: center;
   flex-direction: row;
   gap: 20px;
-}
-.footer__icon :hover {
-  fill: black;
 }
 .footer__right__form {
   display: flex;
@@ -479,6 +482,14 @@ body {
   font-weight: 500;
   line-height: 17px;
   letter-spacing: 0%;
+}
+
+.footer__icon path {
+  transition: all 0.3s;
+}
+
+.footer__icon:hover path {
+  fill: black;
 }
 
 @media (max-width: 1024px) {

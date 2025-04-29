@@ -29,6 +29,14 @@ header {
   flex-wrap: wrap;
 }
 
+.logo_mobile {
+  display: none;
+}
+
+.top_menu_mobile {
+  display: none;
+}
+
 .header_input {
   width: 288px;
   height: 41px;
@@ -220,6 +228,9 @@ footer {
   color: #888888;
   text-decoration: none;
 }
+.footer_link:hover {
+  text-decoration: underline;
+}
 
 .footer_info {
   display: flex;
@@ -242,7 +253,11 @@ footer {
   gap: 20px;
 }
 
-.footer__icon :hover {
+.footer__icon path {
+  transition: all 0.3s;
+}
+
+.footer__icon:hover path {
   fill: black;
 }
 
@@ -307,6 +322,7 @@ footer {
   letter-spacing: 0%;
   text-align: center;
   color: #000000;
+  transition: all 0.3s;
 }
 .subscribe_btn:hover {
   box-sizing: border-box;

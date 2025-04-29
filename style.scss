@@ -231,6 +231,7 @@ header{
 }
 
 footer {
+    height: 207px;
     margin-top: 64px;
     padding-top: 32px;
     display: flex;
@@ -271,6 +272,10 @@ footer {
     line-height: 17px;
     color: #888888;
     text-decoration: none;
+
+    &:hover {
+        text-decoration: underline; 
+    }
 }
 
 .footer_info {
@@ -293,13 +298,14 @@ footer {
     gap: 20px;
 }
 
-.footer{
-    &__icon {
-        :hover {
-            fill: black;
-        }
-    }
+.footer__icon path {
+    transition: all .3s;
 }
+
+.footer__icon:hover path {
+    fill: black;
+}
+
 
 .footer_form {
     display: flex;
@@ -353,7 +359,7 @@ footer {
     letter-spacing: 0%;
     text-align: center;
     color: #000000;
-    transition: background .3s;
+    transition: all .3s;
 
     &:hover {
         box-sizing: border-box;
